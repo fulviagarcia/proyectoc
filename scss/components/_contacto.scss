@@ -1,0 +1,90 @@
+div{
+ display: flex;
+ flex-direction: column;
+ 
+
+
+    .box{
+     width: 400px;
+     height: 450px;
+     margin: 60px auto 0;
+     background: rgba(0,0,0,0.6);
+     text-align: center;
+     padding: 35px;
+     border: 3px solid #fff;
+     border-radius: 70px 0 70px 0 ;
+
+        h2{
+            margin-bottom: 20px; 
+            color: #fff;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+        }
+       
+        p{
+            text-align: left;
+            color: #fff;
+            text-transform: uppercase;
+            font-weight: bold;
+        }
+       
+           
+        input{
+            width: 100%;
+            height: 50px;
+            border-radius: 15px 0 15px 0;
+            border: 2px solid #fff;
+            margin-bottom: 15px;
+            background: transparent;
+            color: #fff;
+        }
+       
+       a{
+            display: block;
+            height: 40px;
+            line-height: 40px;
+            text-align: center;
+            background: deeppink;
+            border-radius: 30px;
+            color: #fff;
+            text-transform: uppercase;
+            margin-top: 20px;
+
+            cursor: pointer;
+            text-decoration: none;
+            letter-spacing: 5px;
+            font-weight: bold;
+            font-size: 15px;
+            color: #fff;
+        }
+
+    }
+
+
+    #contacto{
+        width: 100%;
+        height: 100%;
+        margin: 20%;
+       
+    }
+ 
+
+}
+
+h3{
+    text-align: center;
+    font-size: 36px;
+    color: orangered;
+}
+
+
+
+
+     
+  
+
+
+
+
+
+/*esto es un ejemplo mostrando la ruta y resultados*/

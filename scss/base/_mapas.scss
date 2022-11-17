@@ -1,0 +1,19 @@
+/*  nos permite hacer algo parecido a las liastas pero agrupar varios valores sin que sean de la misma familia */
+$dark:(
+    /* key-valor */
+    bg-color-dark:black,
+    font-dark:36px,
+    bg-image-dark: attachment,
+    
+
+);
+
+
+/* aplicacion del mapa */
+
+.dark{
+
+    /*  funcion map-get */
+    background-color: map-get($dark, bg-color-dark);
+    
+}

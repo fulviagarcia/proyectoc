@@ -1,0 +1,33 @@
+/* aca voy a colocar el header footer body */
+footer{
+ display: flex;
+ flex-direction: column;
+ background-color: fuchsia;
+ height: 60px;
+ margin: 0 0 0 0;
+ 
+}
+
+footer p{
+ color: #fff;
+ font-size: 30px;
+}
+
+
+img{
+
+ display: flex;
+ flex-direction: column;
+ width:60px;
+ padding:6px ;
+ margin: 0 0 10px 0;
+ background-image: linear-gradient(aqua , white ,fuchsia);
+       
+}
+
+h4{
+    text-align: center;
+    color: fuchsia;
+    font-size: 28px;
+   
+}

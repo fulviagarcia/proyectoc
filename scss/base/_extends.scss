@@ -1,0 +1,26 @@
+/* mas sencillo que un mapa y tambien agrupoa propiedades de css , siempre se pone el simbolo de porcentaje % placeholder + nombre*/
+
+
+
+%mensaje{
+
+    border: 1px solid black;
+    padding: 10px;
+    border-radius: 6px;
+}
+
+.error{
+    background-color: red;
+    @extend %mensaje;
+}
+
+.accept{
+    background-color: green;
+    @extend %mensaje;
+}
+
+.disable{
+    background-color: gray;
+    @extend %mensaje;
+}
+/* boton de error , ok, disabled*/

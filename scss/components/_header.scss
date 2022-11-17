@@ -1,0 +1,42 @@
+/* nesting o anidamiento */
+
+header{
+    background-color:fuchsia;
+    margin: 0 0 15% 0;
+    padding: 10px 10px;
+    nav{
+        
+        ul{
+            display: flex; 
+            justify-content: space-around;
+            list-style: none;
+            font-size: 20px;
+            
+            li{
+                text-decoration: none;
+
+                a{
+                    text-decoration: none;
+            
+                    color: white;
+                    align-items: center;
+                    
+                   &:hover{
+                     background-color:aqua;
+                     padding: 3px;
+                     transition: background-color 0,3s;
+                   }
+                    
+                }
+
+
+    
+
+            }
+        }
+    }
+}
+
+
+
+

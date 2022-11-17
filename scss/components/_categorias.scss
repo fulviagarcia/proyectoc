@@ -1,0 +1,47 @@
+
+div{
+    display: flex;
+    flex-direction: column;
+
+    img{
+      display: flex;
+      width: 60%;
+      margin: 1% 20% 20% 20%;
+      
+    }
+    h5{
+        color: orangered;
+        font-size: 36px;
+        text-align: center;
+
+    }
+}
+
+
+main{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    margin:50px;
+
+    section{
+        p{
+            font-size: 36px;
+            color:orangered;
+           
+        }
+    
+     width: 80%;
+
+        img{
+         
+         width: 80%;
+
+        }
+    }
+}
+
+
+   
+
+   

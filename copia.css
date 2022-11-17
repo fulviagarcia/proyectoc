@@ -289,6 +289,9 @@ h3{
    justify-content: center;
    align-items: flex-end;
 
+
+   
+
 }
 
 iframe{
@@ -357,7 +360,7 @@ input{
     color: #fff;
 }
 
-
+/*footer*/
 
 .redes{
     display: flex;
