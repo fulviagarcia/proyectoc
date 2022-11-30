@@ -1,14 +1,16 @@
-div{
+.contacto-container{
  display: flex;
- flex-direction: column;
+ flex-direction: row;
+ justify-content: space-around;
+ margin-bottom: 30%;
+
  
-
-
-    .box{
-     width: 400px;
+ 
+ .box{
+     width: 500px;
      height: 450px;
-     margin: 60px auto 0;
-     background: rgba(0,0,0,0.6);
+     margin:  auto 0;
+     background-image: linear-gradient(#ff4ba7, #ffda64) ;
      text-align: center;
      padding: 35px;
      border: 3px solid #fff;
@@ -60,29 +62,12 @@ div{
 
     }
 
-
     #contacto{
-        width: 100%;
-        height: 100%;
-        margin: 20%;
+        width: 30px;
+        height: 20%;
        
     }
- 
-
 }
-
-h3{
-    text-align: center;
-    font-size: 36px;
-    color: orangered;
-}
-
-
-
-
-     
-  
-
 
 
 

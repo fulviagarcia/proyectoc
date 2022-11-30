@@ -1,7 +1,8 @@
 /* nesting o anidamiento */
 
 header{
-    background-color:fuchsia;
+    background-color: #ffda64;
+    
     margin: 0 0 15% 0;
     padding: 10px 10px;
     nav{
@@ -17,13 +18,12 @@ header{
 
                 a{
                     text-decoration: none;
-            
                     color: white;
                     align-items: center;
                     
                    &:hover{
-                     background-color:aqua;
-                     padding: 3px;
+                     background-color: #ff4ba7;
+                     padding: 6px;
                      transition: background-color 0,3s;
                    }
                     
