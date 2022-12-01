@@ -49,3 +49,69 @@ footer{
 
 }
 
+/*mobil*/
+@media only screen and (max-width: 500px) {
+    #nosotros{
+        display: flex;
+        flex-direction: column-reverse;
+        height: 30%;
+        font-size: 28px;
+        width: 90%;
+       
+    }
+
+    .bateria{
+        width: auto;
+    }
+
+    #section-1{
+        display: flex;
+        flex-direction: column;
+        width: 80%;
+        text-align: center;
+
+        .img-s1{
+            width: 90%;
+        }
+    }
+
+    #section-2{
+        width: 80%;
+    }
+
+    #section-3{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    
+    .gallery-container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        height: 70%;
+        width: 70%;
+      
+    }
+
+
+    .contacto-container{
+        display: flex;
+        flex-direction: column;
+        
+
+        
+     .box{
+            width: 70%;
+            margin-bottom: 50px;
+        }
+
+        #contacto{
+            width: 70%;
+        }
+
+    }
+
+}
+
+
