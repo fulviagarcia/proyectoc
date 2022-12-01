@@ -59,6 +59,9 @@ footer{
         width: 90%;
        
     }
+    h1{
+        font-size: 22px;
+    }
 
     .bateria{
         width: auto;
@@ -104,10 +107,12 @@ footer{
      .box{
             width: 70%;
             margin-bottom: 50px;
+            margin-left: 20px;
         }
 
         #contacto{
             width: 70%;
+            margin-left: 20px;
         }
         /*cambios*/ 
     }
@@ -115,7 +120,7 @@ footer{
 
     .menu-item.active {
      overflow: hidden;
-
+     
     }
     
   
@@ -125,7 +130,7 @@ footer{
         flex-wrap: wrap;
         align-items: flex-start;
         transition: height 0.3s;
-        margin-bottom: 30px;
+        margin-bottom: 50px;
     }
     
     nav {

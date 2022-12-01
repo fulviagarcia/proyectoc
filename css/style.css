@@ -228,44 +228,6 @@
 
 /*esto es un ejemplo mostrando la ruta y resultados*/
 /* nesting o anidamiento */
-/*header{
-    background-color: #ffda64;
-
-    margin: 0 0 15% 0;
-    padding: 10px 10px;
-    nav{
-
-        ul{
-            display: flex; 
-            justify-content: space-around;
-            list-style: none;
-            font-size: 20px;
-
-            li{
-                text-decoration: none;
-
-                a{
-                    text-decoration: none;
-                    color: inherit;
-                    color: white;
-                    align-items: center;
-
-
-                   &:hover{
-                     background-color: #ff4ba7;
-                     padding: 6px;
-                     transition: background-color 0,3s;
-                   }
-
-                }
-
-
-
-
-            }
-        }
-    }
-}*/
 /* cambios*/
 header {
   background-color: #ffda64;
@@ -393,6 +355,9 @@ footer p {
     font-size: 28px;
     width: 90%;
   }
+  h1 {
+    font-size: 22px;
+  }
   .bateria {
     width: auto;
   }
@@ -427,9 +392,11 @@ footer p {
   .contacto-container .box {
     width: 70%;
     margin-bottom: 50px;
+    margin-left: 20px;
   }
   .contacto-container #contacto {
     width: 70%;
+    margin-left: 20px;
   }
   .menu-item.active {
     overflow: hidden;
@@ -439,7 +406,7 @@ footer p {
     flex-wrap: wrap;
     align-items: flex-start;
     transition: height 0.3s;
-    margin-bottom: 30px;
+    margin-bottom: 50px;
   }
   nav {
     display: block;
